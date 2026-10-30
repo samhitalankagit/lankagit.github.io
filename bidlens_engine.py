@@ -58,7 +58,7 @@ def extract_supplier_file(supplier: dict) -> tuple[list[dict], str]:
     fmt = supplier["source_format"]
     rows: list[dict] = []
     if fmt == "Excel workbook":
-        df = pd.read_excel(path, sheet_name="Quotation", dtype=str).fillna("")
+        df = pd.read_excel(path, sheet_name="Quotation", dtype=str, engine="openpyxl").fillna("")
         for row_idx, (_, r) in enumerate(df.iterrows(), start=2):
             price_text = str(r.get("Unit price", "")).strip()
             rows.append({"item_id":str(r["Item ID"]).strip(),"item":str(r["Item description"]).strip(),"quantity_offered":int(_numeric(r.get("Quantity offered")) or 0),"quoted_price":_numeric(price_text),"original_price_text":price_text,"currency":str(r.get("Currency","INR")).strip().upper(),"price_basis":str(r.get("Price basis","per item")).strip().lower(),"delivery_days":int(_numeric(r.get("Delivery days"))) if _numeric(r.get("Delivery days")) is not None else None,"delivery_charge":_numeric(r.get("Freight / delivery charge")),"payment_terms":str(r.get("Payment terms","Not specified")),"issue":"","raw_excerpt":" | ".join([str(r.get("Item ID","")),str(r.get("Item description","")),str(r.get("Quantity offered","")),str(price_text),str(r.get("Currency","")),str(r.get("Price basis","")),str(r.get("Delivery days","")),str(r.get("Freight / delivery charge",""))]),"source_location":f"Quotation sheet, row {row_idx}"})
