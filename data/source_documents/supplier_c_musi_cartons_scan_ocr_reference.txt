@@ -1,0 +1,37 @@
+MUSI CARTONS (SAMPLE) - QUOTATION
+Quote date: 28 October 2026 | Deliver to Hyderabad
+All quoted prices in INR per item; delivery charge per quotation: INR 300
+Tax treatment: not stated in scan.
+Item ID | Description | Qty | Price | Currency | Basis | Delivery days
+BX-01 | Small box 01 | 500 | 9.94 | INR | per item | 4
+BX-02 | Small box 02 | 750 | 10.33 | INR | per item | 4
+BX-03 | Small box 03 | 1000 | 10.72 | INR | per item | 4
+BX-04 | Small box 04 | 500 | 11.11 | INR | per item | 4
+BX-05 | Small box 05 | 750 | 11.50 | INR | per item | 4
+BX-06 | Small box 06 | 1000 | 9.94 | INR | per item | 4
+BX-07 | Small box 07 | 500 | 10.33 | INR | per item | 4
+BX-08 | Small box 08 | 750 | 10.72 | INR | per item | 4
+BX-09 | Small box 09 | 1000 | 11.11 | INR | per item | 4
+BX-10 | Small box 10 | 500 | 11.50 | INR | per item | 4
+BX-11 | Medium box 01 | 500 | 10.06 | INR | per item | 4
+BX-12 | Medium box 02 | 750 | 10.45 | INR | per item | 4
+BX-13 | Medium box 03 | 1000 | 8.? | INR | per item | 4
+BX-14 | Medium box 04 | 500 | 11.23 | INR | per item | 4
+BX-15 | Medium box 05 | 750 | 11.62 | INR | per item | 4
+BX-16 | Medium box 06 | 1000 | 10.06 | INR | per item | 4
+BX-17 | Medium box 07 | 500 | 10.45 | INR | per item | 4
+BX-18 | Medium box 08 | 750 | 10.84 | INR | per item | 4
+BX-19 | Medium box 09 | 1000 | 11.23 | INR | per item | 4
+BX-20 | Medium box 10 | 500 | 11.62 | INR | per item | 4
+BX-21 | Large box 01 | 500 | 9.94 | INR | per item | 4
+BX-22 | Large box 02 | 750 | 10.33 | INR | per item | 4
+BX-23 | Large box 03 | 1000 | 10.72 | INR | per item | 4
+BX-24 | Large box 04 | 500 | 11.11 | INR | per item | 4
+BX-25 | Large box 05 | 750 | 11.50 | INR | per item | 4
+BX-26 | Large box 06 | 1000 | 9.94 | INR | per item | 4
+BX-27 | Large box 07 | 500 | 10.33 | INR | per item | 4
+BX-28 | Large box 08 | 750 | 10.72 | INR | per item | 4
+BX-29 | Large box 09 | 1000 | 11.11 | INR | per item | 4
+BX-30 | Large box 10 | 500 | 11.50 | INR | per item | 4
+Payment terms: Net 30 days
+Note: Price for BX-13 is handwritten and unclear; supplier confirmation required.

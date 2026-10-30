@@ -1,0 +1,11 @@
+BIDLENS - START HERE (WINDOWS)
+
+1. Extract this entire folder somewhere easy to find, such as Downloads.
+2. Make sure Python 3.11 or 3.12 is installed on your computer.
+3. Double-click Run_BidLens_Windows.bat.
+4. The first launch installs the required Python packages and may take a few minutes.
+5. Your browser should open the app. If it doesn't, look at the Command Prompt window for the local URL (usually http://localhost:8501).
+6. Keep the Command Prompt window open while using BidLens. To stop the app, press Ctrl+C in that window.
+
+This package includes the demo data and source documents. It is separate from your portfolio repository.
+The demo suppliers and quotes are fictional. No supplier emails are sent.
